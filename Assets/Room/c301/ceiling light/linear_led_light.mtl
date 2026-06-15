@@ -1,0 +1,27 @@
+# Materials for linear LED light
+newmtl body_white
+Ka 0.68 0.68 0.70
+Kd 0.95 0.95 0.96
+Ks 0.18 0.18 0.20
+Ns 36
+illum 2
+d 1.0
+Tr 0.0
+
+newmtl body_shadow
+Ka 0.35 0.35 0.37
+Kd 0.72 0.72 0.74
+Ks 0.08 0.08 0.08
+Ns 12
+illum 2
+d 1.0
+Tr 0.0
+
+newmtl diffuser_white
+Ka 0.78 0.80 0.84
+Kd 0.92 0.94 0.97
+Ks 0.88 0.90 0.94
+Ns 140
+illum 2
+d 0.86
+Tr 0.14
