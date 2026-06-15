@@ -19,12 +19,28 @@ public class ZoneSwitch : UdonSharpBehaviour
     public Vector3 offRotation = new Vector3(0f, 0f, 0f);
     public Vector3 onRotation = new Vector3(25f, 0f, 0f);
 
-    [Header("Trang thai ban dau")]
-    [UdonSynced] public bool isOn = true;
+    [Header("Trang thai hien tai")]
+    [UdonSynced] public bool isOn = false;
 
     void Start()
     {
+        // Luon ep trang thai ban dau la OFF
+        isOn = false;
         ApplyState();
+
+        // Apply lai sau mot chut de tranh script khac tu bat den/quat len sau Start()
+        SendCustomEventDelayedSeconds("DelayedApplyState", 0.25f);
+    }
+
+    public void DelayedApplyState()
+    {
+        isOn = false;
+        ApplyState();
+
+        if (Networking.LocalPlayer != null && Networking.IsOwner(gameObject))
+        {
+            RequestSerialization();
+        }
     }
 
     public override void Interact()
