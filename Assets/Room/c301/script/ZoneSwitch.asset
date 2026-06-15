@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: ZoneSwitch
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 7785f97775a6bd545aeace3a94775c13,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 6234e9de284f3b24892fd912305e132b,
     type: 2}
   udonAssembly: 
   assemblyError: 
