@@ -1,0 +1,73 @@
+# Materials for C301 wooden drawer cabinet
+newmtl light_beige_wood
+Ka 0.2000 0.1700 0.1200
+Kd 0.7200 0.6200 0.4300
+Ks 0.1800 0.1500 0.1000
+Ns 18.0
+d 1.0000
+illum 2
+
+newmtl wood_panel_light
+Ka 0.2500 0.2200 0.1600
+Kd 0.8200 0.7300 0.5400
+Ks 0.2000 0.1800 0.1200
+Ns 22.0
+d 1.0000
+illum 2
+
+newmtl wood_edge_shadow
+Ka 0.1500 0.1300 0.0900
+Kd 0.5500 0.4600 0.3000
+Ks 0.0800 0.0700 0.0500
+Ns 10.0
+d 1.0000
+illum 2
+
+newmtl wood_grain_subtle
+Ka 0.1500 0.1300 0.0900
+Kd 0.6300 0.5300 0.3600
+Ks 0.0300 0.0300 0.0200
+Ns 8.0
+d 1.0000
+illum 2
+
+newmtl dark_gap
+Ka 0.0050 0.0050 0.0040
+Kd 0.0200 0.0180 0.0140
+Ks 0.0000 0.0000 0.0000
+Ns 4.0
+d 1.0000
+illum 2
+
+newmtl black_plastic
+Ka 0.0010 0.0010 0.0010
+Kd 0.0050 0.0050 0.0050
+Ks 0.0200 0.0200 0.0200
+Ns 20.0
+d 1.0000
+illum 2
+
+newmtl dark_key
+Ka 0.0050 0.0050 0.0040
+Kd 0.0250 0.0230 0.0200
+Ks 0.1000 0.1000 0.0900
+Ns 35.0
+d 1.0000
+illum 2
+
+newmtl silver_metal
+Ka 0.1200 0.1200 0.1200
+Kd 0.6600 0.6500 0.6200
+Ks 0.8000 0.7800 0.7200
+Ns 96.0
+d 1.0000
+illum 2
+
+newmtl key_metal
+Ka 0.1000 0.0900 0.0800
+Kd 0.5600 0.5200 0.4400
+Ks 0.5500 0.5200 0.4500
+Ns 70.0
+d 1.0000
+illum 2
+
