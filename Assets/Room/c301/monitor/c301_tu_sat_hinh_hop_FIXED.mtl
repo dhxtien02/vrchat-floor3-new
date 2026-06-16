@@ -1,0 +1,30 @@
+newmtl painted_light_gray
+Kd 0.72 0.74 0.72
+Ka 0.1 0.1 0.1
+Ks 0.18 0.18 0.18
+Ns 25
+
+newmtl painted_panel_gray
+Kd 0.82 0.83 0.8
+Ka 0.1 0.1 0.1
+Ks 0.18 0.18 0.18
+Ns 25
+
+newmtl dark_seam_black
+Kd 0.05 0.055 0.055
+Ka 0.1 0.1 0.1
+Ks 0.18 0.18 0.18
+Ns 25
+
+newmtl edge_gray
+Kd 0.42 0.45 0.45
+Ka 0.1 0.1 0.1
+Ks 0.18 0.18 0.18
+Ns 25
+
+newmtl slight_shadow
+Kd 0.3 0.32 0.32
+Ka 0.1 0.1 0.1
+Ks 0.18 0.18 0.18
+Ns 25
+
