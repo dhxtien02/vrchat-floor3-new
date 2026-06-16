@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: DoorOpen
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: cf1a0f9d27097b043ba3910cc9bc1d72,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 92f840ddc3be71349bc9cc3a7349b648,
     type: 2}
   udonAssembly: 
   assemblyError: 

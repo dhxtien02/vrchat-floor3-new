@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: ZoneSwitch
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: f2e08b23d921ae8489a6821e86a8083c,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 9659e83178f81e24387d044ed43ae721,
     type: 2}
   udonAssembly: 
   assemblyError: 
@@ -21,7 +21,7 @@ MonoBehaviour:
   compiledVersion: 2
   behaviourSyncMode: 4
   hasInteractEvent: 1
-  scriptID: 6625818508389717148
+  scriptID: -2814119493053532819
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
@@ -188,7 +188,7 @@ MonoBehaviour:
       Data: 11|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: FanSpin[], Assembly-CSharp
+      Data: C301_FanSpin[], Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 

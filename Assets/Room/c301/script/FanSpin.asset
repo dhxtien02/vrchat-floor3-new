@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: FanSpin
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 944865df632b08842a6b5ef546d7ee33,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 49d7235b7a4aaa240a7aee8309264de2,
     type: 2}
   udonAssembly: 
   assemblyError: 
@@ -21,7 +21,7 @@ MonoBehaviour:
   compiledVersion: 2
   behaviourSyncMode: 0
   hasInteractEvent: 0
-  scriptID: -2565644619081835700
+  scriptID: 3761082443465931511
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
