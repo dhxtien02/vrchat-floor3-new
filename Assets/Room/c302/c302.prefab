@@ -399,7 +399,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 848
+  m_VersionIndex: 857
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -10430,6 +10430,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7673474546043102041, guid: 6213aa39fdd4879459a8013f934ca9a5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06543a14944a4754f9b0a641800be5f9, type: 2}
     - target: {fileID: 919132149155446097, guid: 6213aa39fdd4879459a8013f934ca9a5,
         type: 3}
       propertyPath: m_Name
