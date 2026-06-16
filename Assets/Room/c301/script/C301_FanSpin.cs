@@ -1,7 +1,7 @@
 ﻿using UdonSharp;
 using UnityEngine;
 
-public class FanSpin : UdonSharpBehaviour
+public class C301_FanSpin : UdonSharpBehaviour
 {
     [Header("Trang thai quat")]
     public bool isOn = false;

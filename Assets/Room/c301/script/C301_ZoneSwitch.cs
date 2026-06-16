@@ -3,7 +3,7 @@ using UnityEngine;
 using VRC.SDKBase;
 
 [UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
-public class ZoneSwitch : UdonSharpBehaviour
+public class C301_ZoneSwitch : UdonSharpBehaviour
 {
     [Header("Den trong khu vuc")]
     public GameObject[] lightObjects;
@@ -12,7 +12,7 @@ public class ZoneSwitch : UdonSharpBehaviour
     public Light[] lightComponents;
 
     [Header("Quat trong khu vuc")]
-    public FanSpin[] fans;
+    public C301_FanSpin[] fans;
 
     [Header("Can cong tac")]
     public Transform switchLever;
