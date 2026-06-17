@@ -26,9 +26,7 @@ public class FanSpin : UdonSharpBehaviour
     void Start()
     {
         if (rotatingTarget == null)
-        {
             rotatingTarget = transform;
-        }
     }
 
     void Update()
@@ -36,57 +34,25 @@ public class FanSpin : UdonSharpBehaviour
         if (!isOn || rotatingTarget == null) return;
 
         Vector3 axis = GetAxis();
-
         float direction = reverseDirection ? -1f : 1f;
         float angle = rotateSpeed * direction * Time.deltaTime;
-
-        // Xoay tai cho theo truc local cua object
-        // Cach nay giup quat khong bi bay vong quanh / quay lech tam
         rotatingTarget.Rotate(axis, angle, Space.Self);
     }
 
     private Vector3 GetAxis()
     {
-        if (axisMode == 0)
-        {
-            return Vector3.right;   // X
-        }
-        else if (axisMode == 1)
-        {
-            return Vector3.up;      // Y
-        }
-        else if (axisMode == 2)
-        {
-            return Vector3.forward; // Z
-        }
+        if (axisMode == 0) return Vector3.right;
+        else if (axisMode == 1) return Vector3.up;
+        else if (axisMode == 2) return Vector3.forward;
         else
         {
-            if (customAxis == Vector3.zero)
-            {
-                return Vector3.up;
-            }
-
+            if (customAxis == Vector3.zero) return Vector3.up;
             return customAxis.normalized;
         }
     }
 
-    public void SetFanState(bool state)
-    {
-        isOn = state;
-    }
-
-    public void TurnOn()
-    {
-        isOn = true;
-    }
-
-    public void TurnOff()
-    {
-        isOn = false;
-    }
-
-    public void ToggleFan()
-    {
-        isOn = !isOn;
-    }
+    public void SetFanState(bool state) { isOn = state; }
+    public void TurnOn() { isOn = true; }
+    public void TurnOff() { isOn = false; }
+    public void ToggleFan() { isOn = !isOn; }
 }
